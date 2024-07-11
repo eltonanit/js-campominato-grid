@@ -1,0 +1,68 @@
+*{}
+
+body {
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+#grid{
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.btn{
+    padding: 10px 30px ;
+    border-radius: 0px ;
+     
+}
+.btn-white {
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 0.5s;
+}
+
+.btn-white:hover {
+    background-color: aliceblue;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc( 100% / 10);
+    height: calc( 100% / 10);
+    background-color: blue ;
+    border: 1px;
+    color: white;
+}
+
+.clicked-red{
+    background-color: red;
+}
+
+ 

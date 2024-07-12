@@ -59,10 +59,13 @@ main h2 {
     background-color: blue ;
     border: 1px;
     color: white;
+
+        
+            cursor: pointer;
 }
 
-.clicked-red{
-    background-color: red;
+.square.acrive{
+    background-color: rgb(8, 176, 236);
 }
 
  

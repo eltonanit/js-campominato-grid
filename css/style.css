@@ -59,9 +59,7 @@ main h2 {
     background-color: blue ;
     border: 1px;
     color: white;
-
-        
-            cursor: pointer;
+    cursor: pointer;
 }
 
 .square.acrive{
